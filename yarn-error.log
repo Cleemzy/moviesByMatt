@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\oraclexe\app\oracle\product\11.2.0\server\bin\sqlplus.exe;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Etudes\Dossiers\ITU\UW2\Uwamp\bin\database\mysql-5.7.11\bin;D:\Etudes\Dossiers\ITU\XAMP\php;C:\composer;D:\etudes\dossiers\itu\xamp\mysql\bin;D:\GIT\Git\cmd;C:\Program Files\nodejs\;C:\Users\ASUS\AppData\Local\Android\Sdk\tools;C:\Users\ASUS\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Yarn\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin\sqlplus.exe;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Etudes\Redemption\React native\project\ARN\MoviesAndMe\node_modules\file-uri-to-path\test'
+
+npm manifest: 
+  {
+    "name": "MoviesAndMe",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "moment": "^2.29.1",
+      "numeral": "^2.0.6",
+      "react": "16.13.1",
+      "react-native": "0.63.3",
+      "react-native-gesture-handler": "^1.9.0",
+      "react-navigation": "^4.4.3",
+      "react-navigation-stack": "^2.10.2",
+      "react-navigation-tabs": "^2.10.1",
+      "react-redux": "^7.2.2",
+      "redux": "^4.0.5"
+    },
+    "devDependencies": {
+      "@babel/core": "7.12.9",
+      "@babel/runtime": "7.12.5",
+      "@react-native-community/eslint-config": "1.1.0",
+      "babel-jest": "25.5.1",
+      "eslint": "6.8.0",
+      "jest": "25.5.4",
+      "metro-react-native-babel-preset": "0.59.0",
+      "react-test-renderer": "16.13.1"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
