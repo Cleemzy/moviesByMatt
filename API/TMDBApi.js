@@ -1,6 +1,6 @@
 // API/TMDBApi.js
 
-const API_TOKEN = "8be190b4fae11875ba96a4c6cf43945a";
+const API_TOKEN = "xxxxxxx";
 //https://api.themoviedb.org/3/discover/movie?api_key=8be190b4fae11875ba96a4c6cf43945a&vote_count.gte=1000&sort_by=release_date.desc&language=fr&page=1'
 export function getNewFilms(page) {
   return fetch('https://api.themoviedb.org/3/discover/movie?api_key=' + API_TOKEN + '&vote_count.gte=1000&sort_by=release_date.desc&language=fr&page=' + page)
